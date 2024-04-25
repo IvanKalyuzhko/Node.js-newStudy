@@ -1,0 +1,14 @@
+{
+  "name": "node.js-newstudy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Kalyvan",
+  "license": "ISC",
+  "dependencies": {
+    "currency-converter-lt": "^2.0.1"
+  }
+}
