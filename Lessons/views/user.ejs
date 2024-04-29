@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express</title>
+</head>
+<body>
+    <!--тут використовуєм властивості шабланізатора які прописані на сторінці самого шабланізатора ejs-->
+    <h1>Сторінка користувача: <%= username %></h1>
+    <% if (username.toLowerCase() == 'john') { %>
+        <ul>
+            <% hobbies.forEach((el)=> { %>,<!--тут використовуєм цикл для виведення хоббі користувача на сторінку -->
+                <li><%=el %></li>
+            <%})%>
+        </ul>
+      <% } %>
+</body>
+</html>
