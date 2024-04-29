@@ -6,6 +6,7 @@
     <title>Express</title>
 </head>
 <body>
+    <%- include ('blocks/header') -%>
     <!--тут використовуєм властивості шабланізатора які прописані на сторінці самого шабланізатора ejs-->
     <h1>Сторінка користувача: <%= username %></h1>
     <% if (username.toLowerCase() == 'john') { %>
